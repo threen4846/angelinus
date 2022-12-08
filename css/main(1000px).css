@@ -1,0 +1,367 @@
+@media screen and (max-width: 1000px) {
+    #wrap {
+        display: none;
+    }   
+
+    #wrap_t {
+        display: block;
+        width: 100%;
+    }
+
+    /* 상단 */
+
+    #header_t {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #header_t .logo_t {
+
+    }
+
+    #header_t .hambox_t {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* 메인 */
+
+    #main_t {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        margin-bottom: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 컨텐츠 */
+
+    #coffee_t {
+        width: 100%;
+        height: 500px;
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #coffee_t h3 {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    #coffee_t p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+
+
+
+
+
+    #news_t {
+        width: 100%;
+        height: 500px;
+        background-color: rgb(192, 192, 226);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #news_t h3 {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    #news_t p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+    #event_t {
+        width: 100%;
+        height: 500px;
+        background-color: coral;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #event_t h3 {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    #event_t p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+
+    #store_t {
+        width: 100%;
+        height: 500px;
+        background-color: sienna;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #store_t p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #notice_sns_t {
+        width: 100%;
+        height: 1000px;
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #notice_sns_t .notice_t {
+        width: 500px;
+        height: 400px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #notice_sns_t .notice_t .notice_h_t {
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        opacity: 0.7;
+    }
+    
+    #notice_sns_t .notice_t .notice_h_t h3 {
+        font-size: 20px;
+        line-height: 50px;
+        margin-left: 10px;
+    }
+    
+    #notice_sns_t .notice_t .notice_b_t {
+        width: 100%;
+        height: 330px;
+        background-color: #fff;
+        opacity: 0.7;
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+    
+    #notice_sns_t .notice_t .notice_b_t ul {
+        width: 100%;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+    
+    #notice_sns_t .notice_t .notice_b_t li {
+        list-style: circle;
+    }
+
+    #notice_sns_t .sns_t {
+        width: 400px;
+        height: 400px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #notice_sns_t .sns_t .service_t {
+        width: 100%;
+        height: 250px;
+        /* background-color: azure; */
+        padding: 80px 0 0 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #notice_sns_t .sns_t .service_t h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    #notice_sns_t .sns_t .service_t p {
+        font-size: 13px;
+        margin-top: 30px;
+        color: #fff;
+    }
+    
+    #notice_sns_t .sns_t .snsbox_t {
+        width: 100%;
+        height: 100px;
+        /* background-color: brown; */
+        display: flex;
+        justify-content: center;
+    }
+    
+    #notice_sns_t .sns_t .snsbox_t img {
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #footer_t {
+        width: 100%;
+        height: 400px;
+        /* background-color: aqua; */
+    }
+
+    #footer_t .footer_menu_t {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(193, 216, 168);
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    #footer_t .menu_list_t {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* background-color: beige; */
+    }
+
+    #footer_t .menu_list_t li {
+        font-size: 12px;
+    }
+
+    #footer_t .menu_list_t li p {
+        font-size: 20px;
+    }
+
+    #footer_t .sub_list_t {
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+    #footer_t .footer_f_t {
+        width: 100%;
+        height: 200px;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #footer_t .footer_f_in_t .footer_logo_t {
+
+    }
+    
+    #footer_t .footer_f_in_box_t {
+        width: 800px;
+        height: 200px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    #footer_t .footer_f_in_box_t ul {
+        display: flex;
+    }
+    
+    #footer_t .footer_f_in_box_t li {
+        margin-right: 10px;
+    }
+    
+    #footer_t .footer_f_in_box_t address {
+        font-style: normal;
+    }
+    
+    #footer_t .footer_f_in_box_t p {
+    
+    }
+    
+    #footer_t .footer_f_in_box_t .rightbox_t {
+        /* background-color: aliceblue; */
+        width: 150px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
