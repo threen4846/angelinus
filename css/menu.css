@@ -1,0 +1,291 @@
+#wrap {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#header {
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+#header_in {
+    width: 1400px;
+    height: 100px;
+    /* background-color: blue; */
+}
+
+#header_in .logo {
+    float: left;
+    width: 300px;
+    height: 100px;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+}
+
+#header_in .menubox {
+    float: right;
+    width: 800px;
+    height: 100px;
+    /* background-color: rgb(88, 141, 141); */
+}
+
+#header_in .menubox .menu01 {
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(189, 224, 168); */
+    padding: 15px 0 0 400px;
+    box-sizing: border-box;
+}
+
+#header_in .menubox .menu01 ul {
+
+}
+
+#header_in .menubox .menu01 ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+#header_in .menubox .menu01 ul li a {
+
+}
+
+#header_in .menubox nav {
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(92, 109, 81); */
+}
+
+#header_in .menubox nav ul {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_in .menubox nav ul li {
+
+}
+
+#header_in .menubox nav ul li a {
+    font-size: 20px;
+}
+
+
+
+
+
+#main {
+    width: 100%;
+    height: 400px;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+#menubox {
+    width: 100%;
+    height: 1300px;
+    background: url(../images/subimg.jpg) no-repeat 0 0;
+    opacity: 0.8;
+    padding-top: 350px;
+    box-sizing: border-box;
+}
+
+#menubox .menulist_h {
+    margin: 0 auto;
+    width: 750px;
+    height: 50px;
+    border-bottom: 5px solid rgb(173, 130, 130);
+    display: flex;
+}
+
+#menubox .menulist_h .menu_nav01 {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+#menubox .menulist_h .menu_nav02 {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+#menubox .menulist {
+    margin: 0 auto;
+    width: 750px;
+    height: 600px;
+    /* border: 1px solid #000; */
+}
+
+#menubox .menulist li {
+    float: left;
+    width: 150px;
+    height: 200px;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menubox .menulist li img {
+    
+}
+
+#menubox .menulist li p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+}
+
+#footer .footer_menu {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(238, 238, 223);
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    box-sizing: border-box;
+}
+
+#footer .footer_menu .menu_list {
+    width: 1300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer_menu .menu_list>li {
+    float: left;
+    font-size: 23px;
+}
+
+#footer .footer_menu .sub_list {
+    margin-top: 30px;
+}
+
+#footer .footer_menu .sub_list>li {
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#footer .footer_f {
+    width: 100%;
+    height: 200px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+}
+
+#footer .footer_f_in {
+    width: 1300px;
+    height: 200px;
+    /* background-color: blue; */
+}
+
+#footer .footer_f_in .footer_logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer_f_in_box {
+    float: right;
+    width: 1100px;
+    height: 200px;
+    background-color: #000;
+    position: relative;
+    top: -200px;
+    padding: 40px 0 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#footer .footer_f_in_box ul {
+    display: flex;
+}
+
+#footer .footer_f_in_box li {
+    margin-right: 5px;
+}
+
+#footer .footer_f_in_box address {
+    font-style: normal;
+}
+
+#footer .footer_f_in_box p {
+
+}
+
+#footer .footer_f_in_box .rightbox {
+    float: right;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: -100px;
+    font-size: 10px;
+}
