@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 720px) {
     #wrap {
         display: none;
     }
@@ -126,7 +126,7 @@
     }
 
     #notice_sns_t .notice_t {
-        width: 500px;
+        width: 480px;
         height: 400px;
         /* background-color: aqua; */
         display: flex;
@@ -264,7 +264,7 @@
         height: 200px;
         background-color: black;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         font-size: 10px;
         color: #fff;
@@ -292,5 +292,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        display: none;
     }
 }

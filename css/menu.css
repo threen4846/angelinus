@@ -2,16 +2,6 @@
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
 #header {
     width: 100%;
     height: 100px;
@@ -37,7 +27,7 @@
 }
 
 #header_in .menubox {
-    width: 700px;
+    width: 650px;
     height: 100px;
     /* background-color: rgb(88, 141, 141); */
 }
@@ -51,7 +41,6 @@
 }
 
 #header_in .menubox .menu01 ul {
-
 }
 
 #header_in .menubox .menu01 ul li {
@@ -60,7 +49,6 @@
 }
 
 #header_in .menubox .menu01 ul li a {
-
 }
 
 #header_in .menubox nav {
@@ -84,22 +72,12 @@
     font-size: 20px;
 }
 
-
-
-
-
 #main {
     width: 100%;
     height: 400px;
     background-color: bisque;
     overflow: hidden;
 }
-
-
-
-
-
-
 
 #menubox {
     width: 100%;
@@ -155,7 +133,6 @@
 }
 
 #menubox .menulist li img {
-    
 }
 
 #menubox .menulist li p {
@@ -163,35 +140,6 @@
     font-weight: 700;
     color: #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #footer {
     width: 100%;
@@ -216,7 +164,7 @@
     justify-content: space-between;
 }
 
-#footer .footer_menu .menu_list>li {
+#footer .footer_menu .menu_list > li {
     float: left;
     font-size: 23px;
 }
@@ -225,7 +173,7 @@
     margin-top: 30px;
 }
 
-#footer .footer_menu .sub_list>li {
+#footer .footer_menu .sub_list > li {
     font-size: 12px;
     margin-top: 10px;
     cursor: pointer;
@@ -277,7 +225,6 @@
 }
 
 #footer .footer_f_in_box p {
-
 }
 
 #footer .footer_f_in_box .rightbox {

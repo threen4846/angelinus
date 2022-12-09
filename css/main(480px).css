@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
     #wrap {
         display: none;
     }
@@ -126,7 +126,7 @@
     }
 
     #notice_sns_t .notice_t {
-        width: 500px;
+        width: 100%;
         height: 400px;
         /* background-color: aqua; */
         display: flex;
@@ -239,6 +239,10 @@
         font-size: 12px;
     }
 
+    #footer_t .menu_list_t li:last-child {
+        display: none;
+    }
+
     #footer_t .menu_list_t li p {
         font-size: 20px;
     }
@@ -249,22 +253,21 @@
 
     #footer_t .footer_f_t {
         width: 100%;
-        height: 200px;
+        height: 400px;
         /* background-color: aqua; */
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
     }
 
     #footer_t .footer_f_in_t .footer_logo_t {
     }
 
     #footer_t .footer_f_in_box_t {
-        width: 800px;
-        height: 200px;
+        width: 100%;
+        height: 300px;
         background-color: black;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         font-size: 10px;
         color: #fff;
@@ -278,6 +281,12 @@
         margin-right: 10px;
     }
 
+    #footer_t .footer_f_in_box_t li:nth-child(5),
+    #footer_t .footer_f_in_box_t li:nth-child(6),
+    #footer_t .footer_f_in_box_t li:nth-child(7) {
+        display: none;
+    }
+
     #footer_t .footer_f_in_box_t address {
         font-style: normal;
     }
@@ -285,12 +294,24 @@
     #footer_t .footer_f_in_box_t p {
     }
 
+    #footer_t .footer_f_in_box_t .leftbox_t {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer_t .footer_f_in_box_t .leftbox_t p {
+        /* display: flex;
+        justify-content: center; */
+    }
+
     #footer_t .footer_f_in_box_t .rightbox_t {
         /* background-color: aliceblue; */
-        width: 150px;
+        /* width: 150px;
         height: 100px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-between; */
+        display: none;
     }
 }
