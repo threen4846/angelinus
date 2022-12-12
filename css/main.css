@@ -76,15 +76,119 @@
     font-size: 20px;
 }
 
-#main {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 600px;
-    background-color: bisque;
-    margin-bottom: 150px;
+#header_in .sub_menu {
+    position: relative;
+    left: -750px;
+    width: 1400px;
+    height: 200px;
+    background-color: rgb(238, 238, 223);
+    z-index: 9999;
     overflow: hidden;
 }
+
+#header_in .sm_list {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#header_in .sm_list > li {
+    cursor: "pointer";
+}
+
+#header_in .sm_list > li span {
+    font-size: 25px;
+}
+
+#header_in .sm_item {
+    margin-top: 20px;
+}
+
+#header_in .sm_item li {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#mainimg {
+    /* display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    margin-bottom: 150px;
+    overflow: hidden; */
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+#view {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+#view li {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 600px;
+}
+
+#view li:nth-child(1) {
+    left: 0%;
+}
+
+#view li:nth-child(2) {
+    left: 100%;
+}
+
+#view li:nth-child(3) {
+    left: 200%;
+}
+
+#view li img {
+    width: 100%;
+}
+
+#mainimg .btn {
+    position: absolute;
+    top: 620px;
+    left: 50%;
+    z-index: 9999;
+    margin-left: -32.5px;
+}
+
+#mainimg .btn li {
+    float: left;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 15px;
+    overflow: hidden;
+}
+
+#mainimg .btn li.on a {
+    background-color: rgb(155, 117, 117);
+}
+
+#mainimg .btn a {
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+/* #mainimg .l_btn {
+    float: left;
+}
+
+#mainimg .r_btn {
+    float: right;
+} */
 
 #coffee {
     width: 100%;
@@ -106,6 +210,7 @@
 #coffee .coffee_pic {
     width: 500px;
     height: 300px;
+    position: relative;
 }
 
 #coffee .coffee_pic img {
@@ -113,6 +218,7 @@
 }
 
 #coffee .coffee_txt {
+    position: relative;
 }
 
 #coffee .coffee_txt h3 {
@@ -144,12 +250,8 @@
     align-items: center;
 }
 
-#news img {
-    /* position: absolute; */
-    /* width: 100%; */
-}
-
 #news .news_txt {
+    position: relative;
 }
 
 #news .news_txt h3 {
@@ -166,6 +268,7 @@
     width: 369px;
     height: 537px;
     background: url(../images/newspic.png);
+    position: relative;
 }
 
 #event {
@@ -186,6 +289,7 @@
 }
 
 #event .event_txt {
+    position: relative;
 }
 
 #event .event_txt h3 {
@@ -204,6 +308,7 @@
     background: url(../images/eventpic.jpg) no-repeat;
     background-size: 100%;
     background-color: rgb(63, 146, 146);
+    position: relative;
 }
 
 #store {
@@ -220,6 +325,7 @@
     font-size: 30px;
     color: #000;
     font-weight: 600;
+    text-align: center;
 }
 
 #notice_sns {
