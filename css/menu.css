@@ -117,11 +117,13 @@
     width: 750px;
     height: 600px;
     /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #menubox .menulist li {
-    float: left;
-    width: 150px;
+    width: 25%;
     height: 200px;
     /* border: 1px solid #000; */
     box-sizing: border-box;
